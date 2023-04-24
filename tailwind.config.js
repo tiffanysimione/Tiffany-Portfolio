@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'mono': ['Source Code Pro'],
-        'display': ['Libre Baskerville']
-      }
+          julius: ['Julius Sans One', 'sans-serif'],
+        },
+      
     }
   },
   plugins: [],

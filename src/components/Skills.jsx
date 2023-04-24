@@ -1,6 +1,5 @@
 import React from 'react';
 import css from '../assets/css.png';
-import tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (

@@ -16,6 +16,8 @@ const About = () => {
                         About
                     </p>
                 </div>
+                <img src="https://uploads-ssl.webflow.com/5e0e761a473c7693458bb389/5f05fc33646cf8b9e15a73d0_img-mango%402x.png" width="50" height="50" alt="manila mango
+" class="img-intro-mobile"></img>
             </div>
 
             {/* about me */}

@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Indie+Flower&family=Julius+Sans+One&family=Playfair+Display&display=swap");
+
+body {
+  font-family: "Julius Sans One", sans-serif;
+  background-color: #fffbf6;
+}
 
 @layer base {
-  body {
-    @apply font-[SourceCodePro];
-  }
   li {
     @apply px-4;
     @apply cursor-pointer;

@@ -59,25 +59,25 @@ const handleClick =() => setNav(!nav)
                 <ul>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
                         <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
-                        href='https://www.linkedin.com/in/christinalu3799/' target='_blank' rel="noreferrer">
+                        href='https://www.linkedin.com/in/tiffanysimione/' target='_blank' rel="noreferrer">
                             LinkedIn <FaLinkedin size={25} />
                         </a>
                     </li>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
                         <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
-                        href='https://github.com/christinalu3799' target='_blank' rel="noreferrer">
+                        href='https://github.com/tiffanysimione' target='_blank' rel="noreferrer">
                             GitHub <FaGithub size={25} />
                         </a>
                     </li>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
                         <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
-                        href='mailto:contact@christinalu.me' target='_blank' rel="noreferrer">
+                        href='mailto:simionetiffany1@gmail.com' target='_blank' rel="noreferrer">
                             Email <HiOutlineMail size={25} />
                         </a>
                     </li>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
                         <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
-                        href='https://drive.google.com/file/d/1le062bv5yVDrKYchMyFB_hhcPtKl8ITE/view?usp=sharing' target='_blank' rel="noreferrer">
+                        href='blank' target='_blank' rel="noreferrer">
                             Resume <BsFillPersonLinesFill size={25} />
                         </a>
                     </li>
