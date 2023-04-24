@@ -5,8 +5,8 @@ import airplane from '../assets/airplane.png'
 const Contact = () => {
   return (
     <div name ='contact' className='w-full h-screen flex justify-center items-center p-4'>
-      <div className='contact-image-container'>
-    
+      <div className='contact-image-container '>
+     
     <img src ={airplane} alt="airplane" style={{width:'50px'}}/>
    </div>
       

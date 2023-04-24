@@ -6,8 +6,8 @@
 
 body {
   font-family: "Julius Sans One", sans-serif;
-  background-color: #fffbf6;
   color: #002d72;
+  /* background-color: #fffbf6; */
 }
 
 @layer base {
@@ -73,5 +73,42 @@ body {
   }
   100% {
     transform: translate(1000px, 0);
+  }
+}
+
+.welcome-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: scroll-left 5s linear infinite;
+}
+
+.scroll-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: scroll-right 5s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
   }
 }

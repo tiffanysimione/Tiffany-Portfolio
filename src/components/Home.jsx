@@ -20,6 +20,9 @@ const Home = () => {
 
 
 {/* Container */}
+
+
+
 <div data-aos='fade-left' className='w-full md:h-full md:w-2/3 px-8 mx-auto flex flex-col justify-center h-fit font-Julius Sans Onetext-color'>
                     <p className='mt-8 text-lg md:text-xl '>Hi, my name is</p>
                     <h1 className='text-4xl md:text-6xl font-bold font-display py-4'>Tiffany Simione</h1>
@@ -34,6 +37,7 @@ const Home = () => {
                         />
                     </h2>
   <div>
+  
     <button className='text-[#fa8072] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#002d72] hover:border-pink 600' > View Work 
     <span className ='group-hover:rotate-90 duration-300'>
     <HiArrowNarrowRight className='ml-3'/>
