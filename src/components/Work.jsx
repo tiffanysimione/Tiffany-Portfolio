@@ -13,7 +13,9 @@ function Work() {
   {/* Container */}
 
 <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
+    
       {/* Grid Item */}
+
 <div style ={{backgroundImage: `url(${trying})`}}
 className ='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
