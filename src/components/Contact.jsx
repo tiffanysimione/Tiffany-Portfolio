@@ -1,12 +1,15 @@
 import React from 'react'
 import { useState } from "react";
+import airplane from '../assets/airplane.png'
 
 const Contact = () => {
   return (
     <div name ='contact' className='w-full h-screen flex justify-center items-center p-4'>
       <div className='contact-image-container'>
-        <img src="https://uploads-ssl.webflow.com/5e0e761a473c7693458bb389/5f05fc33646cf8b9e15a73d0_img-mango%402x.png" width="50" height="50" alt="manila mango" class="img-intro-mobile"></img>
-      </div>
+    
+    <img src ={airplane} alt="airplane" style={{width:'50px'}}/>
+   </div>
+      
       <form method='POST' action="https://getform.io/f/2269e4c9-35b0-4bc9-b475-a75f7d418515" className='flex flex-col max-w-[600px] w-full'> 
         <div className='pb-8'>
           <p className='text-4xl font-bold inline'>Send me a message!</p>
