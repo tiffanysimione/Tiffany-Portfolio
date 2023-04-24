@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div name='about' className='w-full h-fit background-color'>
 
-        <div className='flex flex-col justify-center items-center w-full h-full font-mono'>
+ <div className='flex flex-col justify-center items-center w-full h-full text-color[#002d72]'>
 
         
             {/* title */}

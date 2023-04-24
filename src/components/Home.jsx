@@ -15,9 +15,8 @@ const Home = () => {
   },[])
 
 
-
   return (
-    <div name ='home' className='w-full h-screen bg-[#fffbf6]'>
+    <div name ='home' className='w-full h-screen bg-[#fffbf6] flex flex-col justify-center items-center  text-[#002d72]'>
 
 
 {/* Container */}
@@ -35,7 +34,7 @@ const Home = () => {
                         />
                     </h2>
   <div>
-    <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#002d72] hover:border-pink 600' > View Work 
+    <button className='text-[#fa8072] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#002d72] hover:border-pink 600' > View Work 
     <span className ='group-hover:rotate-90 duration-300'>
     <HiArrowNarrowRight className='ml-3'/>
     </span>
