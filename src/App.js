@@ -9,7 +9,7 @@ import Welcome from './components/Welcome';
 
 function App() {
   return (
-    <div className='flex flex-col items-center overflow-x-hidden background-color text-color'>
+    <div className='flex flex-col items-center overflow-x-hidden background-color text-color;'>
       <NavBar/>
       <Welcome  />
       <Home />
