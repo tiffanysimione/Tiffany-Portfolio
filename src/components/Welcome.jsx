@@ -7,14 +7,14 @@ function Welcome() {
   const [isWelcomeVisible, setWelcomeVisible] = useState(true);
 
   const welSpring = useSpring({
-    from: { transform: isWelcomeVisible ? 'translateX(0px)' : 'translateX(-500px)' },
-    to: { transform: isWelcomeVisible ? 'translateX(-500px)' : 'translateX(0px)' },
+    from: { transform: isWelcomeVisible ? 'translateX(-500px)' : 'translateX(0px)' },
+    to: { transform: isWelcomeVisible ? 'translateX(0px)' : 'translateX(-500px)' },
     scroll: ref,
   });
 
   const comeSpring = useSpring({
-    from: { transform: isWelcomeVisible ? 'translateX(0px)' : 'translateX(500px)' },
-    to: { transform: isWelcomeVisible ? 'translateX(500px)' : 'translateX(0px)' },
+    from: { transform: isWelcomeVisible ? 'translateX(5000px)' : 'translateX(0px)' },
+    to: { transform: isWelcomeVisible ? 'translateX(0px)' : 'translateX(500px)' },
     scroll: ref,
   });
 
