@@ -10,7 +10,7 @@ const About = () => {
 
         
             {/* title */}
-            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8' data-aos='fade-right'> 
+            <div className='max-w-[100%] w-full grid grid-cols-2 gap-8' data-aos='fade-right'> 
                 <div className='sm:text-right pb-8 pl-8'>
                     <p className='text-4xl font-display inline'>
                         About

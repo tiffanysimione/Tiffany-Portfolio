@@ -10,18 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Add this meta tag to set the viewport width */
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-/* Add this media query to ensure that the parent container is properly sized */
-@media screen and (max-width: 0px) {
-  .flex {
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-  }
-}
-
 @layer base {
   li {
     @apply px-4;

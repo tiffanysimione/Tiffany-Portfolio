@@ -4,7 +4,7 @@ import css from '../assets/css.png';
 const Skills = () => {
   return (
     <div name = 'skills' className='w-full h-fit'>
-    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'> 
+    <div className='max-w-[100%] mx-auto p-4 flex flex-col justify-center w-full h-full'> 
     <div>
         <p className='text-4xl font-bold inline'> Skills</p>
         <p className='py-4'>These are the technoliges I've worked with</p>
