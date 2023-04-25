@@ -7,7 +7,7 @@
 body {
   font-family: "Julius Sans One", sans-serif;
   color: #002d72;
-  /* background-color: #fffbf6; */
+  overflow-x: hidden;
 }
 
 @layer base {
