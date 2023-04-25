@@ -1,6 +1,7 @@
 import React from 'react';
 import trying from '../assets/trying.png'
 
+
 function Work() {
   return (
 <div name ='work' className='w-full md:h-screen'>
@@ -10,9 +11,13 @@ function Work() {
     <p className='py-6'>Check out some of my recent work</p>
 </div>
 
+
+<img src= 'https://uploads-ssl.webflow.com/6228e4b0518bd64c391affa4/622a3bfe16215b781d5cc69a_Wine%20glasses.gif'> 
+</img>
+
   {/* Container */}
 
-<div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
+<div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
     
       {/* Grid Item */}
 
