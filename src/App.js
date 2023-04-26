@@ -5,7 +5,9 @@ import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Welcome from './components/Welcome';
-// import test from './components/test';
+
+
+// import ProjectCard from './components/ProjectCard';
 
 function App() {
   
@@ -17,9 +19,8 @@ function App() {
       <About />
       <Skills />
       <Work />
-      {/* <test /> */}
       <Contact />
-
+      {/* <ProjectCard />  */}
       </div>
 
   );

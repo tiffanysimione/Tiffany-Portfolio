@@ -2,20 +2,20 @@ import React from 'react';
 import trying from '../assets/trying.png'
 
 
-
 function Work() {
   return (
+    
 <div name ='work' className='w-full md:h-screen'>
 <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
     <div className='pb-8 mt-20'> 
-    <p className='text-4xl font-bold inline mt-4 '>Work</p>
+    <p className='text-4xl font-bold inline'>Work</p>
     <p className='py-6'>Check out some of my recent work</p>
 </div>
 
-
+<div> 
 <img src= 'https://uploads-ssl.webflow.com/6228e4b0518bd64c391affa4/622a3bfe16215b781d5cc69a_Wine%20glasses.gif'> 
 </img>
-
+</div>
   {/* Container */}
 
 <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>

@@ -4,6 +4,8 @@ import Aos from 'aos'
 import Typewriter from 'typewriter-effect'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import Marquee from 'react-fast-marquee';
+
 
 const Home = () => {
   // animate on scroll effect
@@ -14,14 +16,18 @@ const Home = () => {
       })
   },[])
 
-
   return (
     <div name ='home' className='w-full h-screen bg-[#fffbf6] flex flex-col justify-center items-center  text-[#002d72]'>
 
-
 {/* Container */}
 
-
+<div class="container flex flex-col ">
+  <div class="text-lg">
+    <marquee loop>
+      <h2 class = "width: 100%"> Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome</h2>
+    </marquee>
+  </div>
+</div>
 
 <div data-aos='fade-left' className='md:h-full md:w-2/3 px-8 mx-auto flex flex-col justify-center h-fit font-Julius Sans Onetext-color'>
                     <p className='mt-8 text-lg md:text-xl '>Hi, my name is</p>

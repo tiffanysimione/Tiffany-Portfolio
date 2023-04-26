@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Marquee from 'react-fast-marquee'
 
 const About = () => {
  
@@ -7,6 +7,14 @@ const About = () => {
     <div name='about' className='w-full h-fit background-color '>
 
  <div className='flex flex-col justify-center items-center w-full h-full text-color[#002d72]'>
+
+ <div class="container flex flex-col">
+  <div class="text-lg">
+    <marquee loop>
+      <h2 class = "width: 100% text-[#fa8072]">  About About About About About About About About About About About About About About  About About About About About About About About About About About About About About  About About About About About About About About About About About About About About  About About About About About About About About About About About About About About  About About About About About About About About About About About About About About</h2>
+    </marquee>
+  </div>
+</div>
 
         
             {/* title */}
